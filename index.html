@@ -1,0 +1,21 @@
+<html>
+<head>
+	<link rel="stylesheet" href="main_page.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script type="text/javascript" src = "main_page.js"></script>
+</head>
+<body onload="CreateTable()">
+	<div id = "selector">
+		<input type="radio" name="selector" id="more" value="more">
+		<label for="more">More</label>
+		<input type="radio" name="selector" id="less"  checked="checked" value="less">
+		<label for="less">Less</label>
+	</div>
+	<div id="dropdownContainer">
+		<div id="header">Selected Fields</div>
+		<div id="dropdown"></div>
+		<input type="button" name="apply" value="Apply" onclick="filterCol()">
+	</div>
+	<div id="gridContainer"></div>
+</body>
+</html>
