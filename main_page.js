@@ -77,11 +77,6 @@ var data = [{
 
 //This function renders dropdown when button is clicked from the last column of the header.
 function renderDropdown() {
-<<<<<<< HEAD
-
-	//if($("#dropdown").is(':empty')){
-=======
->>>>>>> origin/master
 	if($('#dropdownContainer').is(':hidden')){
 		$('#dropdownContainer').show();
 		if($("#dropdown").is(':empty')){
@@ -111,11 +106,7 @@ function createFilterButton(th){
 	filterButton.id = 'filterButton';
 	filterButton.className = 'filterButton';
 	th.appendChild(filterButton);
-<<<<<<< HEAD
-
-=======
 	
->>>>>>> origin/master
 	//Click handler for Filter button
 	filterButton.onclick = function () {
 	    renderDropdown();
